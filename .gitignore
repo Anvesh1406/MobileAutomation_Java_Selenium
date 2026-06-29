@@ -1,0 +1,27 @@
+# Maven build output
+target/
+*.class
+
+# Reports and screenshots (generated at runtime)
+reports/
+screenshots/
+logs/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Config overrides (avoid committing local device settings)
+config/local.properties

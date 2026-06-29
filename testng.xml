@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Mobile Automation Suite" verbose="2" parallel="false">
+
+    <test name="YouTube Tests">
+        <classes>
+            <class name="com.mobileautomation.tests.youtube.YouTubeSearchTest"/>
+        </classes>
+    </test>
+
+    <!--
+        Add more app test groups here as the framework expands, e.g.:
+        <test name="Instagram Tests">
+            <classes>
+                <class name="com.mobileautomation.tests.instagram.InstagramSearchTest"/>
+            </classes>
+        </test>
+    -->
+
+</suite>
