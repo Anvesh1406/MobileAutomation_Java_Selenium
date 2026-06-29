@@ -2,10 +2,12 @@
 target/
 *.class
 
-# Reports and screenshots (generated at runtime)
-reports/
-screenshots/
-logs/
+# Reports and screenshots (generated at runtime — keep folders, ignore contents)reports/*
+!reports/.gitkeep
+screenshots/*
+!screenshots/.gitkeep
+logs/*
+!logs/.gitkeep
 
 # IntelliJ IDEA
 .idea/
